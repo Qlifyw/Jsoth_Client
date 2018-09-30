@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Jsoth</string>
+    <string name="title_activity_server_list">Servers</string>
+    <string name="title_activity_denver">Servers list</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="server_description_placeholder">Description (Optional)</string>
+    <string name="server_menu_terminal">Terminal</string>
+    <string name="server_menu_details">Details</string>
+
+
+    <string name="action_order_by_os">by OS</string>
+    <string name="action_order_by_favourite">by Favourite</string>
+    <string name="action_order_by_status">by Status</string>
+    <string name="action_order_by_date">by Date</string>
+
+    <string name="title_activity_servers_map">Location</string>
+    <string name="title_activity_overview">Overview</string>
+
+    <string name="terminal_toast_error">Can\'t connect to the server</string>
+    <string name="terminal_hint_enter_command">Enter command</string>
+
+    <string name="server_down">DOWN</string>
+    <string name="server_available">AVAILABLE</string>
+    <string name="server_not_response">NOT RESPONDING</string>
+
+    <string name="server_chart_ram">RAM USAGES</string>
+    <string name="server_chart_cpu">CPU USAGES</string>
+    <string name="server_chart_hdd">HDD USAGES</string>
+
+    <string name="notification_content_info">Server status</string>
+    <string name="notification_server_available">Server again available! ^__^</string>
+    <string name="notification_server_not_response">Server not responding -__-</string>
+    <string name="notification_server_down">Server is down :(</string>
+
+    <string name="drawer_overview">Overview</string>
+    <string name="drawer_location">Location</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_backups">Backups</string>
+
+    <string name="backups_google_sign_in">Sign In</string>
+    <string name="backups_upload">Create backup</string>
+    <string name="backups_download">Restore data</string>
+    <string name="backups_downloaded">Backup successfully downloaded</string>
+    <string name="backups_uploaded">Backup successfully uploaded</string>
+
+    <string name="popup_favourite">Add to favourite</string>
+    <string name="popup_delete">Delete</string>
+    <string name="popup_change_pass">Change password</string>
+    <string name="popup_update_description">Edit description</string>
+
+    <string name="details_general">General</string>
+    <string name="details_network">Network</string>
+    <string name="details_memory">Memory</string>
+    <string name="details_description">Description</string>
+    <string name="details_cpu_separator">CPU</string>
+    <string name="details_hdd">HDD</string>
+
+    <string name="details_tap_open">Show list</string>
+
+    <string name="details_machine_name">Hostname:</string>
+    <string name="details_os_name">OS:</string>
+    <string name="details_uptime">Uptime:</string>
+    <string name="details_external_ip">Extrenal IP:</string>
+    <string name="details_local_ip">Local IP: </string>
+    <string name="details_country">Country: </string>
+
+    <string name="details_ram">RAM:</string>
+    <string name="details_swap">SWAP:</string>
+    <string name="details_cpu_vendor">Vendor:</string>
+    <string name="details_cpu_model">Model:</string>
+    <string name="details_cpu_cores">Cores:</string>
+    <string name="details_cpu_mhz">Mhz:</string>
+
+    <string name="adding_server_add">Add</string>
+    <string name="adding_server_next">Next</string>
+    <string name="adding_server_cancel">Cancel</string>
+
+    <string name="update_server_cancel">Cancel</string>
+    <string name="update_server_save">Save</string>
+    <string name="update_server_updated">Successfully updated</string>
+
+    <string name="settings_notifications">Notify servers status</string>
+    <string name="settings_sync">Backups sync</string>
+    <string name="settings_summary_nofitication">Send notification when server is down or not responsing</string>
+    <string name="settings_summary_sync">Update backup everyday</string>
+
+
+    <string name="sample_short">Lorem ipsum dolor sit amet, qui in vidit tollit nostrud, odio interpretaris eam ex. Scripserit contentiones consectetuer pro no.</string>
+
+    <string name="JsonCode">code</string>
+    <string name="JsonHwid">hwid</string>
+    <string name="JsonIsKnown">isKnown</string>
+    <string name="JsonPublicKey">publicKey</string>
+    <string name="JsonEncMsg">Msg</string>
+    <string name="JsonTerminalCommand">Command</string>
+    <string name="JsonHardwareInfo">HardwareInfo</string>
+
+</resources>

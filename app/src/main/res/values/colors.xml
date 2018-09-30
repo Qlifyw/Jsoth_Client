@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5B99EC</color> <!-- 3F51B5 -->
+    <color name="colorPrimaryDark">#5B99EC</color> <!-- 303F9F -->
+    <color name="colorAccent">#652cf5</color>
+
+    <color name="actionBarColor">#395980</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="yellow">#FFEB3B</color>
+    <color name="green">#8BC34A</color>
+    <color name="red">#FF5722</color>
+
+    <color name="light_magenta">#c400ce</color>
+</resources>

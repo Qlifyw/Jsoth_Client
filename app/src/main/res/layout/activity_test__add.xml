@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.herem1t.rc_client.ServerInfo.AddServerActivity"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="@string/adding_server_next"
+        android:textColor="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/guideline8" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton_cancel"
+        android:text="@string/adding_server_cancel"
+        app:layout_constraintLeft_toRightOf="@+id/btn_next"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline8" />
+
+    <EditText
+        android:id="@+id/et_ext_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IP Address"
+        android:inputType="textPersonName"
+
+        app:layout_constraintTop_toBottomOf="@+id/guideline"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/iv_marker"
+        app:layout_constraintVertical_bias="0.35000002" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPassword"
+        android:singleLine="false"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/iv_lock"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/et_ext_ip" />
+
+    <ImageView
+        android:id="@+id/iv_marker"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/ic_marker"
+        app:layout_constraintRight_toLeftOf="@+id/et_ext_ip"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/et_ext_ip"
+        app:layout_constraintTop_toTopOf="@+id/et_ext_ip"
+        app:layout_constraintVertical_bias="0.499"
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginEnd="16dp" />
+
+    <ImageView
+        android:id="@+id/iv_lock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@mipmap/ic_lock_pass"
+        app:layout_constraintBottom_toBottomOf="@+id/et_description"
+        app:layout_constraintTop_toTopOf="@+id/et_description"
+        app:layout_constraintRight_toLeftOf="@+id/et_description"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.666"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <LinearLayout
+        android:id="@+id/header_image_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/earth_curve"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4"
+        tools:layout_editor_absoluteY="213dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline8"
+        app:layout_constraintGuide_percent="0.8"
+        android:orientation="horizontal" />
+
+</android.support.constraint.ConstraintLayout>

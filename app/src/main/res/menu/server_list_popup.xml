@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_favourite"
+        android:icon="@mipmap/ic_favorite"
+        android:title="@string/popup_favourite" />
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@mipmap/ic_delete"
+        android:title="@string/popup_delete" />
+    <item
+        android:id="@+id/menu_edit_description"
+        android:icon="@mipmap/ic_description"
+        android:title="@string/popup_update_description" />
+    <item
+        android:id="@+id/menu_change_pass"
+        android:icon="@mipmap/ic_lock_pass"
+        android:title="@string/popup_change_pass" />
+</menu>
