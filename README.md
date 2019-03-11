@@ -2,7 +2,7 @@
 <h1>Alpha v0.9</h1>
 <h2>Client part</h2>
  <ul>
- <li> Min Android version : 19</li> <br>
+ <li> Min Android version : 21</li> <br>
  <li> DataBase: SQLite </li> <br>
  <li> Concurrency: RXJava 2 </li><br>
  <li> Network : Retrofit 2</li> <br>
