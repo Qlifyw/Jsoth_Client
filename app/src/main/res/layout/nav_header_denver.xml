@@ -34,6 +34,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
-        android:text="android.studio@android.com" />
+        android:text="@string/denwer_subtitle" />
 
 </LinearLayout>

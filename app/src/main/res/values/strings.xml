@@ -39,8 +39,9 @@
     <string name="drawer_location">Location</string>
     <string name="drawer_settings">Settings</string>
     <string name="drawer_backups">Backups</string>
+    <string name="drawer_error">Temporary not available</string>
 
-    <string name="backups_google_sign_in">Sign In</string>
+    <string name="backups_google_sign_in">Google Drive</string>
     <string name="backups_upload">Create backup</string>
     <string name="backups_download">Restore data</string>
     <string name="backups_downloaded">Backup successfully downloaded</string>
@@ -85,17 +86,22 @@
     <string name="settings_notifications">Notify servers status</string>
     <string name="settings_sync">Backups sync</string>
     <string name="settings_summary_nofitication">Send notification when server is down or not responsing</string>
-    <string name="settings_summary_sync">Update backup everyday</string>
+    <string name="settings_summary_sync">Update backup everyday (temporary not available)</string>
+
 
 
     <string name="sample_short">Lorem ipsum dolor sit amet, qui in vidit tollit nostrud, odio interpretaris eam ex. Scripserit contentiones consectetuer pro no.</string>
-
-    <string name="JsonCode">code</string>
-    <string name="JsonHwid">hwid</string>
-    <string name="JsonIsKnown">isKnown</string>
-    <string name="JsonPublicKey">publicKey</string>
-    <string name="JsonEncMsg">Msg</string>
-    <string name="JsonTerminalCommand">Command</string>
-    <string name="JsonHardwareInfo">HardwareInfo</string>
+    <string name="add_server_invalid_ip">Please enter correct IP address</string>
+    <string name="add_server_empty_ip">Please enter server\'s IP</string>
+    <string name="add_server_server_already_exists">Server already exists</string>
+    <string name="progress_loading">Loading. Please wait...</string>
+    <string name="add_server_done">Done</string>
+    <string name="add_server_failed">Can\'t add</string>
+    <string name="add_server_error">Error adding</string>
+    <string name="chart_no_data">No data to display</string>
+    <string name="permission_gotten">Permission is gotten</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="chart_pie_center_text">Total amount</string>
+    <string name="denwer_subtitle">administration tool</string>
 
 </resources>

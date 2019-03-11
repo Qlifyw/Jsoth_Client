@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.example.herem1t.rc_client.Charts.RamUsagesActivity">
+    tools:context="com.example.herem1t.rc_client.ui.screens.ram.RamUsagesActivity">
 
 
     <com.github.mikephil.charting.charts.LineChart

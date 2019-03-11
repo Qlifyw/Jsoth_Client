@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.herem1t.rc_client">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -11,102 +13,93 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_jsoth_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.GradientActionBar">
+        android:theme="@style/AppTheme.Main.DarkActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".ServerInfo.AddServerActivity"
+            android:name=".ui.screens.adding.AddServerActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.AddServer.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".ServerOptions.ServerMenuActivity">
+        <activity android:name=".ui.screens.action.ServerMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-        <receiver android:name=".Receivers.DateReceiver" />
-        <receiver android:name=".Receivers.ServerInfoReceiver" />
+        <receiver android:name=".receivers.DateReceiver" />
+        <receiver android:name=".receivers.ServerInfoReceiver" />
 
-        <activity android:name=".Charts.RamUsagesActivity">
+        <activity android:name=".ui.screens.ram.RamUsagesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Charts.OverviewActivity"
+            android:name=".ui.screens.overview.OverviewActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_overview"
             android:theme="@style/AppTheme.AddServer.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".Charts.CpuUsagesActivity">
+        <activity android:name=".ui.screens.cpu.CpuUsagesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".Charts.DisksUsagesActivity">
+        <activity android:name=".ui.screens.hdd.DisksUsagesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".GoogleAPI.DriveDocActivity">
+        <activity android:name=".ui.screens.backup.BackupActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Recycler.DrawerActivity"
+            android:name=".ui.screens.mainlist.DrawerActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.GradientActionBar">
+            android:theme="@style/AppTheme.Main.DarkActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".GoogleAPI.ServersMapActivity"
+            android:name=".ui.screens.location.ServersMapActivity"
             android:label="@string/title_activity_servers_map">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".ServerOptions.ServerDetailsActivity">
+        <activity android:name=".ui.screens.edit.EditActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".ServerInfo.AddDescriptionActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ServerInfo.ChangeDescriptionActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ServerInfo.ChangePasswordActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ServerOptions.TerminalActivity">
+        <activity android:name=".ui.screens.terminal.TerminalActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Settings.SettingsActivity"
-            android:label="@string/drawer_settings">
-        </activity>
+            android:name=".ui.screens.settings.SettingsActivity"
+            android:label="@string/drawer_settings" />
+        <activity android:name=".ui.screens.details.DetailsActivity"
+            android:theme="@style/AppTheme.Details.NoActionBar">
 
+        </activity>
     </application>
 
 </manifest>

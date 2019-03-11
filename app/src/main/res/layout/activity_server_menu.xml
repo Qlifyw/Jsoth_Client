@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/abstract_wallpaper"
-    tools:context="com.example.herem1t.rc_client.ServerOptions.ServerMenuActivity">
+    tools:context="com.example.herem1t.rc_client.ui.screens.action.ServerMenuActivity">
 
 
     <android.support.constraint.ConstraintLayout

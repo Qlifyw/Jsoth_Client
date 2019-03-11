@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/terminal_v"
-    tools:context="com.example.herem1t.rc_client.ServerOptions.TerminalActivity">
+    tools:context="com.example.herem1t.rc_client.ui.screens.terminal.TerminalActivity">
 
     <ImageView
         android:id="@+id/iv_send"
@@ -30,17 +30,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/iv_send"
-        app:layout_constraintTop_toTopOf="@+id/guidline10" />
+        app:layout_constraintTop_toTopOf="@+id/terminal.guideline" />
 
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
 
-        app:layout_constraintBottom_toTopOf="@+id/guidline10"
+        app:layout_constraintBottom_toTopOf="@+id/terminal.guideline"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="24dp">
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -59,7 +60,7 @@
     <android.support.constraint.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/guidline10"
+        android:id="@+id/terminal.guideline"
         app:layout_constraintGuide_percent="0.9"
         android:orientation="horizontal"
         tools:layout_editor_absoluteY="478dp"

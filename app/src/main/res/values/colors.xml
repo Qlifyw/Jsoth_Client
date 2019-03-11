@@ -5,6 +5,7 @@
     <color name="colorAccent">#652cf5</color>
 
     <color name="actionBarColor">#395980</color>
+    <color name="main_primary">#395980</color>
 
     <color name="white">#ffffff</color>
 
@@ -13,4 +14,7 @@
     <color name="red">#FF5722</color>
 
     <color name="light_magenta">#c400ce</color>
+    <color name="asphalt_ligth">#434250</color>
+    <color name="asphalt_dark">#33333D</color>
+    <color name="gray_dark">#222229</color>
 </resources>

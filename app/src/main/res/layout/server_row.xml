@@ -24,12 +24,12 @@
             android:id="@+id/iv_favourite"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginRight="8dp"
+            android:layout_marginRight="16dp"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/iv_status"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_recycler_favourite" />
+            app:srcCompat="@drawable/ic_favorite_red_400_24dp" />
 
         <TextView
             android:id="@+id/tv_ext_ip"

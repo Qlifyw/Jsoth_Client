@@ -2,12 +2,14 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <SwitchPreference
+        android:id="@+id/settings_notification"
         android:defaultValue="true"
-        android:key="settings_notifications"
+        android:key="settings_notification"
         android:summary="@string/settings_summary_nofitication"
         android:title="@string/settings_notifications" />
     <SwitchPreference
         android:defaultValue="false"
+        android:enabled="false"
         android:key="settings_sync"
         android:summary="@string/settings_summary_sync"
         android:title="@string/settings_sync" />
