@@ -126,9 +126,6 @@ public class ServerInfoReceiver extends BroadcastReceiver {
                         if (wasAvailable) {
                             // if server was available before but now isn't;
                             // send notification
-                            dataManager.getDbHelper().updateServerStatus(ip,
-                                    isServerOnline ? SERVER_NOT_RESPONDING : SERVER_DOWN );
-
 
                             String logoPath = dataManager.getDbHelper().getServerLogo(ip);
                             builder = getNotificationBuilder(context, ip, logoPath,
@@ -140,6 +137,10 @@ public class ServerInfoReceiver extends BroadcastReceiver {
                         }
                         // if server wasn't available and now also not available
                         // don't send any notification
+
+                        dataManager.getDbHelper().updateServerStatus(ip,
+                                isServerOnline ? SERVER_NOT_RESPONDING : SERVER_DOWN );
+
                         return builder;
                     }
 
